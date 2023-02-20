@@ -1,0 +1,15 @@
+[package]
+
+name = "comps"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+
+name = "comps"
+path = "src/backend/main.rs"
+
+[dependencies]
+
+axum = "0.6"
+postgres = "0.19"
